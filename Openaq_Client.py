@@ -9,7 +9,7 @@ class Openaq_Client:
         url = "https://api.openaq.org/v2/latest/5301"
 
         headers = {
-            'X-API-Key': 'be201ec2e8955e36af43f4ff873f0cbe766adc05f37b7066085662138895fc31'
+            'X-API-Key': ''
         }
 
         # Realizando a requisição GET para a API do OpenAQ
