@@ -5,7 +5,7 @@ class Mqtt_Client_Temperature:
     # Configurações do MQTT
     THINGSBOARD_HOST = 'mqtt.thingsboard.cloud'
     PORT = 1883
-    ACCESS_TOKEN = 'XviA87k6xDXkar9UF76X'
+    ACCESS_TOKEN = ''
     client = mqtt.Client()
 
     def on_connect(client, rc):
