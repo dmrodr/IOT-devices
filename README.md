@@ -1,7 +1,5 @@
-# Ativar o ambiente virtual 
-
-source venv/bin/activate
-
+# Dependencias
+https://pypi.org/project/paho-mqtt/
 
 # Rodar a aplicacao
 
