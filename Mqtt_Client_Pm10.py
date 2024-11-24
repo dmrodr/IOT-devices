@@ -5,7 +5,7 @@ class Mqtt_Client_Pm10:
     # Configurações do MQTT
     THINGSBOARD_HOST = 'mqtt.thingsboard.cloud'
     PORT = 1883
-    ACCESS_TOKEN = 'lm9CEZGrhVvev6t76ouI'
+    ACCESS_TOKEN = ''
     client = mqtt.Client()
 
     def on_connect(client, rc):
