@@ -5,7 +5,7 @@ class Weatherapi_Client:
     wheaterapi_payload = ''
 
     def execute(self):
-        API_KEY = "0991a6f347c841bc865223759240711"
+        API_KEY = ""
         city = "São Paulo"
         url = f"http://api.weatherapi.com/v1/current.json?key={API_KEY}&q={city}&aqi=no"
 
