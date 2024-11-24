@@ -5,7 +5,7 @@ class Mqtt_Client_Humidity:
     # Configurações do MQTT
     THINGSBOARD_HOST = 'mqtt.thingsboard.cloud'
     PORT = 1883
-    ACCESS_TOKEN = 'n4by4ZQfXEe41o7CWxWU'
+    ACCESS_TOKEN = ''
     client = mqtt.Client()
 
     def on_connect(client, rc):
